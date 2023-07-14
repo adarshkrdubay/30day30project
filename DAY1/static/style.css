@@ -1,0 +1,92 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #000000;
+    font-weight: 900, bold;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: rgb(235, 120, 26);
+}
+
+.mainhed {
+    color: #ffffff;
+    margin-left: 35%;
+}
+
+.section {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.input {
+    margin-left: 30%;
+    margin-top: 1.5rem;
+    width: 35%;
+    height: 2rem;
+    opacity: 40%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.loginbut {
+    margin-left: 30%;
+    margin-top: 1.3rem;
+    width: 35%;
+    height: 2rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f66c25;
+    color: white;
+    font-weight: bold;
+}
+.center {
+    margin-top: 2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    background-image: url('./free-photo-black-grunge-abstract-background-pattern-wallpaper_1340-33851.avif');
+    background-size: cover;
+    opacity: 50%;
+    height: 600px;
+}
+
+.maincent {
+    padding-top: 5rem;
+}
+
+.baseimag {
+    height: 1.5rem;
+}
+
+.log {
+    margin-left: 25%;
+    width: 5rem;
+    height: 2rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.low{
+    margin-left: 7%;
+    margin-top: 1.3rem;
+    display: flex;
+    margin-bottom: 50rem;
+    
+}
