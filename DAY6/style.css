@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: rgb(49, 5, 9);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(73, 10, 16);
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white
+}
+nav ul li a:hover{
+    color: rgb(177, 48, 16);
+    font-size: 1.56rem;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 2rem;
+}
+.right{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 23px;
+}
+.firstsection > div{
+    margin-top: 65px;
+    width: 30%;
+}
+.firstsectionleft{
+    font-size: 3rem;
+
+}
+/* .firstsectionright{
+    none
+
+} */
+.firstsectionright img{
+    width: 100%;
+}
+.myname{
+    color: rgb(71, 0, 204);
+}
+.Selected{
+    color:  rgb(173, 133, 21);
+
+}
+.projecth1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;
+
+}
+
+.projectbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.projectbox a{
+    text-decoration: none;
+    color: white
+}
+.box{
+    padding-top: 10px;
+    background-color: rgb(109, 5, 19);
+    height: 300px;
+    width: 300px; 
+}
+.boxdata{ 
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.boximag{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    
+}
+.Achivementh1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3rem;  
+    margin-top: 2rem;  
+}
+.CYBER1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    font-size: 2rem;   
+    margin-top: 2rem;
+}
+.contactme > div{
+    padding-left: 10%;
+    margin-top: 65px;
+    width: 80%;
+}
+.contactmecenter{
+    font-size: 3rem;
+
+}
